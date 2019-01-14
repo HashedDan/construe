@@ -1,0 +1,15 @@
+{
+  "name": "construe",
+  "version": "1.0.0",
+  "description": "Slack bot to translate service names between cloud providers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Mangum",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}

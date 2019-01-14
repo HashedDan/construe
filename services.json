@@ -1,0 +1,97 @@
+{
+    "Virtual Servers": {
+        "category": "Compute",
+        "aws": [
+            {
+                "AWS Elastic Compute Cloud (EC2)": "https://aws.amazon.com/ec2/"
+            }
+        ],
+        "gcp": [
+            {
+                "Google Compute Engine": "https://cloud.google.com/compute/"
+            }
+        ],
+        "azure": [
+            {
+                "Azure Virtual Machines": "https://azure.microsoft.com/services/virtual-machines/"
+            }
+        ]
+    },
+    "Platform as a Service": {
+        "category": "Compute",
+        "aws": [
+            {
+                "AWS Elastic Beanstalk": "https://aws.amazon.com/elasticbeanstalk/"
+            }
+        ],
+        "gcp": [
+            {
+                "Google App Engine": "https://cloud.google.com/appengine/"
+            }
+        ],
+        "azure": [
+            {
+                "Azure Cloud Services": "https://azure.microsoft.com/en-us/services/cloud-services/"
+            }
+        ]
+    },
+    "Virtual Private Servers": {
+        "category": "Compute",
+        "aws": [
+            {
+                "Amazon Lightsail": "https://aws.amazon.com/lightsail/"
+            }
+        ],
+        "gcp": [],
+        "azure": [
+            {
+                "Azure Virtual Machine Images": "https://azure.microsoft.com/services/virtual-machines/"
+            }
+        ]
+    },
+    "Container Orchestration": {
+        "category": "Compute",
+        "aws": [
+            {
+                "AWS EC2 Container Service (ECS)": "https://aws.amazon.com/ecs/"
+            },
+            {
+                "AWS EC2 Kubernetes Service (EKS)": "https://aws.amazon.com/eks/"
+            }
+        ],
+        "gcp": [
+            {
+                "Google Container Engine": "https://cloud.google.com/container-engine/"
+            },
+            {
+                "Google Kubernetes Engine": "https://cloud.google.com/kubernetes-engine/"
+            }
+        ],
+        "azure": [
+            {
+                "Azure Container Service (ACS)": "https://azure.microsoft.com/services/container-service/"
+            },
+            {
+                "Azure Kubernetes Service (AKS)": "https://azure.microsoft.com/en-us/services/kubernetes-service/"
+            }
+        ]
+    },
+    "Container Registry": {
+        "category": "Compute",
+        "aws": [
+            {
+                "AWS EC2 Container Registry (ECR)": "https://aws.amazon.com/ecr/"
+            }
+        ],
+        "gcp": [
+            {
+                "Google Container Registry": "https://cloud.google.com/container-registry/"
+            }
+        ],
+        "azure": [
+            {
+                "Azure Container Registry": "https://azure.microsoft.com/services/container-registry/"
+            }
+        ]
+    }
+}
