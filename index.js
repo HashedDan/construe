@@ -31,8 +31,10 @@ app.post('/command', (req, res) => {
     let message = {
     };
 
-    var service = req.body.text.trim();
-    res.send(services[service].aws[0])
+    var args = req.body.text.split('-')
+    var service = args[1].trim();
+    var provider = args[0].trim();
+    res.send(services[service][provider.toLowerCase()][0])
 });
 
 const server = app.listen(process.env.PORT || 5000, () => {
